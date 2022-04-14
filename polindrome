@@ -1,0 +1,26 @@
+#str = 'JaVaJ'
+#strstr = str.casefold()
+#this string is reverse.
+#rev = reversed(str)
+#if list(str) == list(rev):
+   # print('POLINDROME')           
+#else:
+   # print('NOT PALINDROME')
+    
+#string = input(('Enter a leter:  '))
+#if(string==string[::-1]):
+  #  print('the letter is a polindrome')
+#else:
+  #  print('the letter is not a polindrome')    
+  
+Num = int(input('Enter value:  '))
+Temp = Num
+Rev = 0 
+while(Num > 0):
+    dig = Num % 10
+    RevRev = Rev * 10 + dig
+    NumNum = Num // 10
+if(temp == Rev):
+    print('This value is a polindrome')
+else:
+    print('this value is not a polindrome')
